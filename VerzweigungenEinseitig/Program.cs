@@ -10,7 +10,15 @@ namespace VerzweigungenEinseitig
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hallo FIU");
+            bool stammkunde = false;
+            if (stammkunde == true)
+            {
+                Console.WriteLine("Stammkunde !!!");
+                Console.WriteLine("Rabatt gewähren");
+            }
+
+            Console.WriteLine("Gesamtbetrag: XY Euro");
+            Console.ReadLine();
         }
     }
 }
