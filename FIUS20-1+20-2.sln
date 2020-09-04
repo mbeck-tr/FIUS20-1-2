@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchleifenKopfgesteuert", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchleifenFussgesteuert", "SchleifenFussgesteuert\SchleifenFussgesteuert.csproj", "{DC33DC2D-4C7A-43C7-B37E-AC8072B623D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsArrays", "CollectionsArrays\CollectionsArrays.csproj", "{B9229C9A-FAA0-4C8A-A1AC-C88749292B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klassen", "Klassen\Klassen.csproj", "{94B3A89E-718B-42DD-8230-4435C8E569CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{DC33DC2D-4C7A-43C7-B37E-AC8072B623D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC33DC2D-4C7A-43C7-B37E-AC8072B623D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC33DC2D-4C7A-43C7-B37E-AC8072B623D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9229C9A-FAA0-4C8A-A1AC-C88749292B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9229C9A-FAA0-4C8A-A1AC-C88749292B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9229C9A-FAA0-4C8A-A1AC-C88749292B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9229C9A-FAA0-4C8A-A1AC-C88749292B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B3A89E-718B-42DD-8230-4435C8E569CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B3A89E-718B-42DD-8230-4435C8E569CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B3A89E-718B-42DD-8230-4435C8E569CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B3A89E-718B-42DD-8230-4435C8E569CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
