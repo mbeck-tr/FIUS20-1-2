@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klassen", "Klassen\Klassen.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "statischeMember", "statischeMember\statischeMember.csproj", "{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstrakteKlassen", "abstrakteKlassen\abstrakteKlassen.csproj", "{6AE91A82-0B6F-4D30-B03F-27E226FCE6C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE91A82-0B6F-4D30-B03F-27E226FCE6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE91A82-0B6F-4D30-B03F-27E226FCE6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE91A82-0B6F-4D30-B03F-27E226FCE6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE91A82-0B6F-4D30-B03F-27E226FCE6C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
