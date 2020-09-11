@@ -31,6 +31,27 @@ namespace abstrakteKlassen
 
             //GeometrischesObjekt g = new GeometrischesObjekt();
 
+            int[] heizung;
+
+            var anzahl = 15;
+
+            heizung = new int[anzahl];
+
+            heizung[0] = 3;
+            heizung[1] = 2; //...
+            heizung[2] = 1;
+            heizung[3] = 4;
+            heizung[4] = 5;
+
+            foreach (int item in heizung)
+            {
+                Console.WriteLine(item);
+            }
+
+
+
+
+
             Console.ReadLine();
         }
     }
