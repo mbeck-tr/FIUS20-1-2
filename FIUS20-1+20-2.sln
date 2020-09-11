@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsArrays", "Collec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klassen", "Klassen\Klassen.csproj", "{94B3A89E-718B-42DD-8230-4435C8E569CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "statischeMember", "statischeMember\statischeMember.csproj", "{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{94B3A89E-718B-42DD-8230-4435C8E569CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B3A89E-718B-42DD-8230-4435C8E569CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B3A89E-718B-42DD-8230-4435C8E569CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AF8266-5EB3-4515-82B8-A2939B3A2DCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
