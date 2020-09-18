@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <form action="antwort.html" method="get">
+        <label for="txbID">Textbox:</label>
+        <input type="text" id="txbID"> <br/>
+        Button: <input type="button" value="OK"><br/>
+        Number: <input type="number" min="10" max="100"><br/>
+        <label for="txbPassword">Passwort: </label>
+        <input type="password" id="txbPassword"><br/>
+        Datum: <input type="date"><br/>
+        email: <input type="email"><br/>
+        file: <input type="file"><br/>
+        range: <input type="range" min="1" max="10"><br/>
+        url: <input type="url"><br/>
+        Tel: <input type="tel" pattern="[0-9]{3,6}"><br/>
+
+        Geschlecht:<br/> 
+        <input type="radio" id="0815" value="m" name="gender">
+        <label for="0815">toller Typ</label><br/>
+        <input type="radio" id="female" value="f" name="gender">
+        <label for="female">weiblich</label><br/>
+        <input type="radio" id="other" value="o" name="gender">
+        <label for="other">divers</label><br/>
+        <br/>
+        
+        <input type="checkbox" id="sugar" name="zutaten" value="s">
+        <label for="sugar">Zucker</label><br/>
+        <input type="checkbox" id="butter" name="zutaten" value="b">
+        <label for="butter">Butter</label><br/>
+        <br/>
+        
+        reset: <input type="reset"><br/>
+        Submit: <input type="submit" value="submit">
+    </form>
+</body>
+</html>

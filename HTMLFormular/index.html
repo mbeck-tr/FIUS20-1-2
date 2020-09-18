@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #vname{
+            background-color: green;
+        }
+        .textboxen{font-family: Arial, Helvetica, sans-serif;}
+    </style>
+</head>
+<body>
+    <form action="antwort.html" method="POST">
+        <h1>Überschrift</h1>
+        <table style="border: 1px solid black;">
+            <tr>
+                <td>Vorname:</td>
+                <td>
+                    <input  type="text" 
+                            name="vname" 
+                            style="border: 3px solid purple"
+                            id="vname"
+                            class="textboxen"/>
+                </td>
+            </tr>
+            <tr>
+                <td>Nachname:</td>
+                <td>
+                    <input type="text" name="nname" class="textboxen"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="senden"/>
+                </td>
+                <td>
+                    <input type="reset" value="löschen" />
+                </td>
+            </tr>
+            <tr> <!-- Demo zu colspan -->
+                <td colspan="2" style="background-color: red;text-align: center;">
+                    spalte1
+                </td>
+                <!-- <td style="background-color: green;text-align: center;">spalte2</td> -->
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
