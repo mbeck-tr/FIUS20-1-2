@@ -50,8 +50,32 @@ namespace Klassen
             Koordinate Punkt3 = new Koordinate(6,5);
             Console.WriteLine($"Punkt3 x: {Punkt3.x}\ty: {Punkt3.y}");
 
+            Punkt2.x = Punkt2.x + 3;
+            Punkt2.y += 2;
+            Console.WriteLine($"Punkt2 x: {Punkt2.x}\ty: {Punkt2.y}");
 
-            Console.ReadLine();
+            Punkt2.Verschiebe(3, 2);
+
+
+            do
+            {
+            Console.Clear();
+            Console.CursorTop = Punkt2.y;
+            Console.CursorLeft = Punkt2.x;
+            Console.Write("O");
+            ConsoleKeyInfo eingabe = Console.ReadKey();
+                if (eingabe.Key == ConsoleKey.RightArrow)
+                    Punkt2.Verschiebe(1, 0);
+                if (eingabe.Key == ConsoleKey.LeftArrow)
+                    Punkt2.Verschiebe(-1, 0);
+                if (eingabe.Key == ConsoleKey.UpArrow)
+                    Punkt2.Verschiebe(0, -1);
+                if (eingabe.Key == ConsoleKey.DownArrow)
+                    Punkt2.Verschiebe(0, 1);
+                if (eingabe.Key == ConsoleKey.Escape)
+                    break;
+            } while (true);
+
         }
     }
 }

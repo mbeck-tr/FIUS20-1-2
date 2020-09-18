@@ -17,5 +17,13 @@
             x = xWert;
             y = yWert;
         }
+
+        //Methoden
+        public void Verschiebe(int DeltaX, int DeltaY)
+        {
+            x += DeltaX;
+            if (x < 0) x = 0;
+            y += DeltaY;
+        }
     }
 }
